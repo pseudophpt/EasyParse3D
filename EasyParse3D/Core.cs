@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EasyParse3D
 {
-    class ParseObj
+    public class ParseObj
     {
         /* Object file name */
         public String filename;
@@ -133,7 +133,7 @@ namespace EasyParse3D
         }
     }
 
-    class DLVertex3
+    public class DLVertex3
     {
         public int vertPosX, vertPosY, vertPosZ, normPosX, normPosY, normPosZ;
 
@@ -159,7 +159,7 @@ namespace EasyParse3D
         }
     }
 
-    class Vertex3
+    public class Vertex3
     {
         /* Vertex position */
         public int posX, posY, posZ;
@@ -182,7 +182,7 @@ namespace EasyParse3D
         }
     }
 
-    class Normal3
+    public class Normal3
     {
         /* Vertex position */
         public int posX, posY, posZ;
@@ -229,7 +229,7 @@ namespace EasyParse3D
         }
     }
 
-    class Poly3
+    public class Poly3
     {
         /* Vertex indices */
         public int[] verts;
